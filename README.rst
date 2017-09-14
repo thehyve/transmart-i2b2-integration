@@ -161,3 +161,8 @@ Done
 ~~~~
 
 At this point Transmart should be able to run against this database, and the data should be visible through the v2 rest api. The data is not visible in TransmartApp as we did not add the correct entries in i2b2_secure. I did not investigate this, so that is still to be done.
+
+Other
+-----
+
+I have also added a database dump from what I got with this process. Transmart should readily run against this database. (Tested with transmart git revision 1ffe45b02acda82cc788125cbe4c2c5b5f9a39e8.)
