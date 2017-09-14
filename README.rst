@@ -28,9 +28,9 @@ The i2b2 database usernames default to 'i2b2metadata' and 'i2b2demodata' with pa
 Edit the database dump files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  - Remove the "CREATE DATABASE" statements near the top.
-  - Remove the function definitions. I'm not sure how necessary this is, maybe it is not, but I did so to prevent any name clashes on those.
-  - I also removed creation of COMMENTs and of constraints, though that is probably not necessary.
+- Remove the "CREATE DATABASE" statements near the top.
+- Remove the function definitions. I'm not sure how necessary this is, maybe it is not, but I did so to prevent any name clashes on those.
+- I also removed creation of COMMENTs and of constraints, though that is probably not necessary.
 
 Remove the tables from the Transmart db
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
